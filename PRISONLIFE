@@ -1,0 +1,53 @@
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local Frame = Instance.new("Frame")
+
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+
+Frame.AnchorPoint = Vector2.new(1, 1)
+
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Frame.Position = UDim2.new(0.594012022, 0, 0.777777731, 0)
+
+Frame.Size = UDim2.new(0, 283, 0, 250)
+
+Frame.Visible = false
+
+Frame.Style = Enum.FrameStyle.DropShadow
+
+TextButton.Parent = Frame
+
+TextButton.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+
+TextButton.Position = UDim2.new(0.120141342, 0, 0.211999997, 0)
+
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+
+TextButton.Style = Enum.ButtonStyle.RobloxRoundButton
+
+TextButton.Font = Enum.Font.ArialBold
+
+TextButton.Text = "Free Swat"
+
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+TextButton.TextScaled = true
+
+TextButton.TextSize = 14.000
+
+TextButton.TextWrapped = true
